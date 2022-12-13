@@ -3,7 +3,10 @@ Copyright 2022 The OFA-Sys Team.
 All rights reserved.
 This source code is licensed under the Apache 2.0 license found in the LICENSE file in the root directory.
 -->
+Visual Grounding (Referring Expression Comprehension) section has the steps to run the evaluation file.
+OFA.ipynb file has the code to clone the repo and icludes all the steps I ran to replicate the results.
 
+NOTE : Read.md from the original repo is edited as below for better understanding 
 <p align="center">
     <br>
     <img src="examples/OFA_logo_tp_path.svg" width="150" />
