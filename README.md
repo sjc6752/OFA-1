@@ -28,7 +28,6 @@ OFA is a unified sequence-to-sequence pretrained model (support **English** and 
 We sincerely welcome contributions to our project. Feel free to contact us or send us issues / PRs!
 <br></br>
 
-
 # Online Demos
 We provide online demo via Hugging Face Spaces for you to interact with our pretrained and finetuned models. Below are the links to the demos:
 * Image Captioning \[[ModelScope](https://modelscope.cn/#/models/damo/ofa_image-caption_coco_large_en/summary)  |  [Spaces](https://huggingface.co/spaces/OFA-Sys/OFA-Image_Caption)\]
@@ -39,7 +38,6 @@ We provide online demo via Hugging Face Spaces for you to interact with our pret
 
 Also we provide Colab notebooks for you to better perceive the procedures. Click [here](colab.md) to check them out!
 <br></br>
-
 
 # Requirements
 * python 3.7.4
@@ -84,7 +82,6 @@ OFA/
 ├── trainer.py
 └── utils/
 ```
-
 
 ## Image Processing
 To ensure the efficiency of processing data, we did not store images with small files, but instead we encode them to base64 strings.
@@ -136,7 +133,6 @@ bash pretrain_ofa_large.sh # Pretrain OFA-Large. For OFA-Base, use pretrain_ofa_
 INFO: Loaded checkpoint ../../checkpoints/ofa_large.pt
 </pre>
 </details>
-
 
 ## Visual Grounding (Referring Expression Comprehension)
 Here provides procedures for you to prepare data, train, and evaluate your model on visual grounding. 
